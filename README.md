@@ -1,22 +1,55 @@
-# ProGen AI — Local gTTS server (deprecated)
+# 🧠 Progen AI
 
-The local Flask gTTS server has been removed from the recommended development workflow. Text-to-speech is now handled entirely within the frontend using the browser's Web Speech API (speechSynthesis) or optional cloud TTS providers (ElevenLabs).
+Progen AI is an intelligent AI-powered web application designed to [brief description of what your app does — e.g., assist users with personalized recommendations, answer queries, provide insights, etc.]. Built with modern web technologies and advanced AI integration, Progen AI delivers fast, accurate, and interactive responses in a clean and user-friendly interface.
 
-Security note: This is a developer/local helper. In production you should secure the endpoint and API access appropriately.
+---
 
-Requirements
-- Python 3.8+
+## 🚀 Features
 
-Setup & run (Windows PowerShell):
+- 🤖 AI-powered intelligent responses
+- 💬 Chat interface with natural language understanding
+- 📊 Real-time interactive dashboard (if applicable)
+- 📁 Easy integration with backend APIs
+- 💡 Clean and responsive UI design
+- 🔒 Secure handling of user requests and data
 
-```powershell
-cd server
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python app.py
-```
+---
 
-This repository no longer depends on a server-side gTTS endpoint. The recommended approach is to use the browser's Web Speech API for TTS or use a cloud TTS provider configured in the frontend.
+## 🛠️ Built With
 
-If you want, I can add a small Node.js proxy instead — gTTS is a Python library and is the fastest way to add basic Google-flavored TTS without real keys.
+| Technology | Purpose |
+|------------|---------|
+| HTML       | Structure of web pages |
+| CSS        | Styled components & UI |
+| JavaScript | Dynamic frontend functionality |
+| [Backend Tech] | API / AI integration |
+| [AI Model / Library] | AI processing & logic |
+
+---
+
+## 📌 Demo
+
+➡️ **Live Preview:** [Link to live application]  
+📸 Screenshots:
+![UI Screenshot 1](link-to-screenshot1)
+![UI Screenshot 2](link-to-screenshot2)
+
+---
+
+## 🧩 Getting Started
+
+### 🔧 Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js >= 14.x
+- npm or yarn
+- Internet connection
+
+### 🏗️ Installation
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/yourusername/progen-ai.git 
+
+
